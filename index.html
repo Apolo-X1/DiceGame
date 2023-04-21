@@ -1,0 +1,35 @@
+<!-- Realizar un programa de juego de dados en una página web. El usuario empieza con $50.000 para
+apostar. El usuario decide a que número apuesta del 1 al 6 y también que cantidad de dinero quiere
+apostar.
+Se lanza un dado (asignación al azar de un número del 1 al 6)
+Si el usuario acierta el número gana el doble de lo que ha apostado. Si no acierta, pierde todo lo
+apostado. El juego acaba cuando el usuario llega a $0 o al llegar a $1200.000
+Podemos hacer una pantalla inicial que salga como la siguiente: -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados aleatorios</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <br><br><br><br><br><br><br>
+    <div class="todo">
+        <h1>Dados aleatorios</h1>
+        <button class="boton" onclick="lanzarDados()"><strong>Jugar</strong></button>
+        <br><br>
+        <div class="dados">
+            <img id="imagen-dado1" src="dado1.png" alt="dado">
+            <img id="imagen-dado2" src="dado1.png" alt="dado">
+        </div>
+    </div>
+</body>
+
+</html>
