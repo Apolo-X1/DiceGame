@@ -1,10 +1,3 @@
-#imagen-dado {
-    width: 200px;
-    height: 200px;
-    border: none;
-    border-radius: 60px;
-}
-
 body{
     background-image: url(./fondo4.jpg);
     background-size: cover;
@@ -16,6 +9,7 @@ body{
 
 .todo{
     text-align: center;
+    padding: 120px;
 }
 
 .todo{
@@ -49,6 +43,7 @@ body{
     background: linear-gradient(
         45deg,
         red, blue, deeppink, blue, red, blue, deeppink, blue
+        /* yellow, yellow, blue, red, yellow, blue, red, blue */
     );
     background-size: 800%;
     border-radius: 10px;
@@ -71,8 +66,8 @@ body{
 }
 
 .dados img{
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     border: 60px;
     border-radius: 30px;
     text-align: center;
