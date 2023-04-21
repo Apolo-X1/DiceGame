@@ -15,6 +15,7 @@ Podemos hacer una pantalla inicial que salga como la siguiente: -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dados aleatorios</title>
 
+    <link rel="icon" href="https://w0.peakpx.com/wallpaper/415/944/HD-wallpaper-minimal-game-black-branco-dados-jogo-minimalist-mininal-preto-preto-e-branco.jpg">
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
 </head>
@@ -23,7 +24,8 @@ Podemos hacer una pantalla inicial que salga como la siguiente: -->
     <br><br><br><br><br><br><br>
     <div class="todo">
         <h1>Dados aleatorios</h1>
-        <button class="boton" onclick="lanzarDados()"><strong>Jugar</strong></button>
+        <audio id="audio_dado" src="./sonidos/sonido_dados.mp3"></audio>
+        <button class="boton" onclick="lanzarDados(); reproducir_sonido()"><strong>Jugar</strong></button>
         <br><br>
         <div class="dados">
             <img id="imagen-dado1" src="dado1.png" alt="dado">
@@ -33,3 +35,4 @@ Podemos hacer una pantalla inicial que salga como la siguiente: -->
 </body>
 
 </html>
+

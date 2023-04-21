@@ -13,3 +13,8 @@ function lanzarDados() {
     let imagenDado2 = document.getElementById("imagen-dado2");
     imagenDado2.src = "dado" + numeroAleatorio2 + ".jpg";
 }
+
+function reproducir_sonido() {
+    var audio_dado = document.getElementById("audio_dado");
+    audio_dado.play();
+}
