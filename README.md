@@ -1,4 +1,4 @@
-# DiceGame
+
 <div align="center">
   <img src="./assets/img/dg.gif" alt="">
 </div>
