@@ -1,11 +1,3 @@
-<!-- Realizar un programa de juego de dados en una página web. El usuario empieza con $50.000 para
-apostar. El usuario decide a que número apuesta del 1 al 6 y también que cantidad de dinero quiere
-apostar.
-Se lanza un dado (asignación al azar de un número del 1 al 6)
-Si el usuario acierta el número gana el doble de lo que ha apostado. Si no acierta, pierde todo lo
-apostado. El juego acaba cuando el usuario llega a $0 o al llegar a $1200.000
-Podemos hacer una pantalla inicial que salga como la siguiente: -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,28 +5,28 @@ Podemos hacer una pantalla inicial que salga como la siguiente: -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dados aleatorios</title>
+    <title>Random Dice</title>
 
-    <link rel="icon"
-        href="https://w0.peakpx.com/wallpaper/415/944/HD-wallpaper-minimal-game-black-branco-dados-jogo-minimalist-mininal-preto-preto-e-branco.jpg">
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/60/60879.png">
+    <link rel="stylesheet" href="./assets/style.css">
+
 </head>
 
 <body>
 
     <div class="todo">
-        <h1>Dados aleatorios</h1>
-        <audio id="audio_dado" src="./sonidos/sonido_dados.mp3"></audio>
-        <button class="boton" onclick="lanzarDados(); reproducir_sonido()"><strong>Jugar</strong></button>
+        <h1>Random Dice</h1>
+        <audio id="audio_dado" src="./assets/sonidos/sonido_dados.mp3"></audio>
+        <button class="boton" onclick="lanzarDados(); reproducir_sonido()"><strong>Play</strong></button>
         <br><br>
 
         <div class="dados">
-            <img id="imagen-dado1" src="dado1.png" alt="dado">
-            <img id="imagen-dado2" src="dado1.png" alt="dado">
+            <img id="imagen-dado1" src="dado1.jpg" alt="dado">
+            <img id="imagen-dado2" src="dado1.jpg" alt="dado">
         </div>
 
     </div>
+    <script src="./assets/main.js"></script>
 </body>
 
 </html>

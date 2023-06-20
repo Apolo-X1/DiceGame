@@ -1,3 +1,20 @@
-# DADOS-GAME
+# WisePhrases
+<div align="center">
+  <img src="./assets/img/dg.gif" alt="">
+</div>
+ㅤ
 
-https://davidjdgt.github.io/DADOS-GAME/
+## Introduction
+Dice game, end.
+
+## Technologies used
+Technologies used: HTML, CSS and JavaScript.
+
+## Project Structure
+    DiceGame/
+    ├── assets/
+    │  ├── img/
+    │  ├── sounds/
+    │  ├── main.js
+    │  └── style.css
+    └── index.html
